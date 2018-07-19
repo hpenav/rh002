@@ -1,0 +1,33 @@
+{
+    "caseSensitive": false,
+    "properties": {
+        "name": "main",
+        "environment": {
+            "type": "noflo-nodejs"
+        }
+    },
+    "inports": {},
+    "outports": {},
+    "groups": [],
+    "processes": {
+        "embaocta/one_3b28a": {
+            "component": "embaocta/one",
+            "metadata": {
+                "label": "one",
+                "x": 216,
+                "y": 180,
+                "width": 72,
+                "height": 72
+            }
+        }
+    },
+    "connections": [
+        {
+            "data": "123",
+            "tgt": {
+                "process": "embaocta/one_3b28a",
+                "port": "in"
+            }
+        }
+    ]
+}
