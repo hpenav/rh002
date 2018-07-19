@@ -19,7 +19,36 @@
                 "width": 72,
                 "height": 72
             }
+        },
+        "embaocta/onee_5hhxv": {
+            "component": "embaocta/onee",
+            "metadata": {
+                "label": "onee",
+                "x": 504,
+                "y": 252,
+                "width": 72,
+                "height": 72
+            }
         }
     },
-    "connections": []
+    "connections": [
+        {
+            "src": {
+                "process": "embaocta/t_e6chy",
+                "port": "out"
+            },
+            "tgt": {
+                "process": "embaocta/onee_5hhxv",
+                "port": "in"
+            },
+            "metadata": {}
+        },
+        {
+            "data": "casa",
+            "tgt": {
+                "process": "embaocta/t_e6chy",
+                "port": "in"
+            }
+        }
+    ]
 }
