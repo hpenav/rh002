@@ -10,24 +10,16 @@
     "outports": {},
     "groups": [],
     "processes": {
-        "embaocta/one_3b28a": {
-            "component": "embaocta/one",
+        "embaocta/t_e6chy": {
+            "component": "embaocta/t",
             "metadata": {
-                "label": "one",
-                "x": 540,
-                "y": 324,
+                "label": "t",
+                "x": 360,
+                "y": 252,
                 "width": 72,
                 "height": 72
             }
         }
     },
-    "connections": [
-        {
-            "data": "123",
-            "tgt": {
-                "process": "embaocta/one_3b28a",
-                "port": "in"
-            }
-        }
-    ]
+    "connections": []
 }
